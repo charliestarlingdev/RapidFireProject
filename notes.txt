@@ -1,0 +1,6 @@
+
+
+-> To start the react app:
+    cd my-app 
+    npm start 
+
