@@ -1,6 +1,15 @@
 
 @import "tailwindcss";
 
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;600&display=swap');
+
+body {
+  font-family: 'Jura', sans-serif;
+}
+
+#login-form {
+  margin-top:60px;
+}
 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -9,7 +18,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #FFFFFF;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -56,6 +65,20 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+body {
+  display: flex;
+  place-items: flex-start center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: flex-end;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.separator{
+  width:100%;
 }
 
 @media (prefers-color-scheme: light) {
